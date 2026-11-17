@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://master-chistota.ru/sitemap.xml
-
-# Дом бытовых услуг «Мастеръ & Чистота»
-# Контакт: service@master-chistota.ru
