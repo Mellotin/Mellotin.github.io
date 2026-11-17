@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /footer.html
+
+Sitemap: https://verdantsmoke.ru/sitemap.xml

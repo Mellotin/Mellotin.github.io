@@ -1,0 +1,500 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f0f0f0;
+  background-color: #181818;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #5cb874;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1140px;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section--alt {
+  background-color: #202020;
+}
+
+.section-subtitle {
+  color: #b0b0b0;
+  margin-bottom: 30px;
+}
+
+.section-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  background-color: #233829;
+  color: #6bc482;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Шапка */
+.site-header {
+  background-color: #121212;
+  border-bottom: 1px solid #333333;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 70px;
+  padding: 10px 0;
+  gap: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.logo-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #2e6f40;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #cccccc;
+  font-size: 15px;
+  padding: 6px 4px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #5cb874;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header-phone {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Главный экран */
+.hero {
+  background-color: #121212;
+  border-bottom: 1px solid #333333;
+  padding: 70px 0;
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #b85d19;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.hero-title {
+  font-size: 44px;
+  margin-bottom: 16px;
+}
+
+.hero-desc {
+  max-width: 600px;
+  color: #cccccc;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+/* Кнопки */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #2e6f40;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #235631;
+  text-decoration: none;
+}
+
+/* Карточки */
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background-color: #242424;
+  border: 1px solid #333333;
+}
+
+.card-img img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-text {
+  color: #bbbbbb;
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+
+.card-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e0823d;
+}
+
+/* Форматы банкетов */
+.banquet-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.banquet-card {
+  background-color: #242424;
+  border: 1px solid #333333;
+  padding: 24px;
+}
+
+.banquet-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #5cb874;
+  margin-top: 12px;
+}
+
+/* Страница О нас */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.about-text p {
+  margin-bottom: 14px;
+  color: #cccccc;
+}
+
+.about-image img {
+  border: 1px solid #333333;
+}
+
+figcaption {
+  padding-top: 8px;
+  font-size: 14px;
+  color: #888888;
+}
+
+.chef-stats {
+  display: flex;
+  gap: 30px;
+  margin-top: 16px;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5cb874;
+}
+
+.stat-item dt {
+  font-size: 13px;
+  color: #999999;
+}
+
+.suppliers-grid,
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.supplier-card,
+.cert-card {
+  background-color: #242424;
+  border: 1px solid #333333;
+  padding: 24px;
+}
+
+.supplier-card p,
+.cert-card p {
+  color: #bbbbbb;
+}
+
+.supplier-location {
+  font-size: 13px;
+  font-weight: bold;
+  color: #e0823d;
+  margin-bottom: 10px;
+}
+
+.cert-icon,
+.card-icon {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+/* Форма бронирования и реквизиты */
+.booking-header {
+  max-width: 580px;
+  margin: 0 auto 20px auto;
+}
+
+.booking-form {
+  max-width: 580px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #dddddd;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 15px;
+  color: #f0f0f0;
+  background-color: #242424;
+  border: 1px solid #444444;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #5cb874;
+  outline: none;
+}
+
+.requisites {
+  background-color: #242424;
+  border: 1px solid #333333;
+  padding: 24px;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.requisites dt {
+  font-size: 13px;
+  color: #999999;
+  margin-top: 12px;
+}
+
+.requisites dd {
+  font-weight: bold;
+  color: #f0f0f0;
+}
+
+/* Подвал */
+.site-footer {
+  background-color: #121212;
+  color: #cccccc;
+  border-top: 1px solid #333333;
+  padding-top: 40px;
+}
+
+.footer-inner {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.footer-col h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #888888;
+  margin-bottom: 12px;
+}
+
+.footer-col li {
+  margin-bottom: 6px;
+}
+
+.footer-col a {
+  display: block;
+  color: #cccccc;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.footer-addr {
+  color: #888888;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #2a2a2a;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #888888;
+}
+
+.footer-frame {
+  display: block;
+  width: 100%;
+  height: 320px;
+  border: none;
+}
+
+/* Адаптивность */
+@media (max-width: 900px) {
+  .grid-cards,
+  .banquet-grid,
+  .suppliers-grid,
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-frame {
+    height: 460px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 0;
+  }
+
+  .header-phone {
+    display: none;
+  }
+
+  .main-nav {
+    width: 100%;
+  }
+
+  .nav-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .grid-cards,
+  .banquet-grid,
+  .about-grid,
+  .suppliers-grid,
+  .cert-grid,
+  .form-row,
+  .footer-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-frame {
+    height: 780px;
+  }
+}
