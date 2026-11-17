@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F5"/>
+      <stop offset="100%" stop-color="#EDE8E1"/>
+    </linearGradient>
+    <linearGradient id="sageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A7C59"/>
+      <stop offset="100%" stop-color="#3D6A4B"/>
+    </linearGradient>
+    <linearGradient id="warmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C2703E"/>
+      <stop offset="100%" stop-color="#A85E34"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="24" fill="url(#heroBg)"/>
+  <circle cx="400" cy="300" r="230" fill="#EEF5F0" opacity="0.6"/>
+  <circle cx="620" cy="180" r="140" fill="#F4EAE1" opacity="0.5"/>
+  <!-- Ремесленные элементы: игла с нитью, обувная колодка, знак чистоты -->
+  <g transform="translate(180, 140)">
+    <!-- Вешалка / Ателье -->
+    <path d="M 120 180 L 220 110 C 230 102 245 108 245 120 L 245 135 C 245 150 230 160 215 170 L 320 240 C 330 248 325 260 315 260 L 125 260 C 115 260 110 248 120 240 Z" fill="none" stroke="url(#sageGrad)" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- Крюк вешалки -->
+    <path d="M 220 110 C 220 80 245 60 270 75 C 285 85 285 105 270 115" fill="none" stroke="url(#warmGrad)" stroke-width="10" stroke-linecap="round"/>
+    <!-- Обувной силуэт / Мастерская -->
+    <path d="M 230 280 C 280 270 340 275 380 300 C 410 320 440 330 460 350 C 470 360 465 375 450 375 L 210 375 C 190 375 180 360 190 345 C 200 330 210 315 220 290 Z" fill="none" stroke="#1C1917" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Искры чистоты / Клининг & Химчистка -->
+    <path d="M 100 80 L 110 50 L 120 80 L 150 90 L 120 100 L 110 130 L 100 100 L 70 90 Z" fill="url(#warmGrad)"/>
+    <path d="M 370 120 L 376 100 L 382 120 L 402 126 L 382 132 L 376 152 L 370 132 L 350 126 Z" fill="url(#sageGrad)"/>
+    <path d="M 390 220 L 395 205 L 400 220 L 415 225 L 400 230 L 395 245 L 390 230 L 375 225 Z" fill="#C2703E"/>
+  </g>
+  <!-- Текстовая эмблема -->
+  <rect x="250" y="470" width="300" height="54" rx="27" fill="#1C1917"/>
+  <text x="400" y="504" font-family="'Inter', sans-serif" font-size="16" font-weight="600" fill="#FAF8F5" text-anchor="middle" letter-spacing="1.5">МАСТЕРСКАЯ &amp; СЕРВИС</text>
+</svg>

@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200" width="100%" height="100%">
+  <rect width="220" height="200" rx="16" fill="#EDE8E1"/>
+  <g transform="translate(0, 0)">
+    <path d="M70,40 L150,40 L160,170 L120,170 L110,90 L100,170 L60,170 Z" fill="#282420"/><line x1="70" y1="70" x2="150" y2="70" stroke="#C2703E" stroke-width="4"/>
+  </g>
+</svg>
