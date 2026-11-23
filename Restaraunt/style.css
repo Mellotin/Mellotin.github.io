@@ -7,8 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  color: #f0f0f0;
+  color: #eee;
   background-color: #181818;
 }
 
@@ -32,469 +31,473 @@ ul {
 }
 
 h1 {
-  font-size: 36px;
-  line-height: 1.2;
-  margin-bottom: 16px;
-  color: #ffffff;
+  font-size: 34px;
+  margin-bottom: 14px;
+  color: white;
 }
 
 h2 {
-  font-size: 28px;
-  margin-bottom: 10px;
-  color: #ffffff;
+  font-size: 26px;
+  margin-bottom: 9px;
+  color: #fff;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 8px;
   color: #ffffff;
 }
 
-.container {
-  max-width: 1140px;
-  width: 92%;
+.osnova {
+  width: 1100px;
+  max-width: 92%;
   margin: 0 auto;
 }
 
-.section {
-  padding: 50px 0;
+.sekcia {
+  padding-top: 44px;
+  padding-bottom: 46px;
 }
 
-.section--alt {
+.sekcia_seraya {
   background-color: #202020;
+  padding: 46px 0 38px 0;
+  border-top: 1px solid #2b2b2b;
+  border-bottom: 1px solid #2b2b2b;
 }
 
-.section-subtitle {
-  color: #b0b0b0;
-  margin-bottom: 30px;
+.podzagolovok {
+  color: #a8a8a8;
+  font-size: 15px;
+  margin-bottom: 26px;
 }
 
-.section-badge {
+.plahka {
   display: inline-block;
-  padding: 4px 10px;
+  padding: 3px 9px;
   background-color: #233829;
   color: #6bc482;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
-/* Шапка */
-.site-header {
+.shapka {
   background-color: #121212;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #333;
+  padding: 12px 0;
 }
 
-.header-inner {
+.shapka_vnutri {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 70px;
-  padding: 10px 0;
-  gap: 20px;
 }
 
-.logo {
+.logotip {
   display: flex;
   align-items: center;
-  gap: 10px;
-  color: #ffffff;
+  color: white;
 }
 
-.logo:hover {
+.logotip:hover {
   text-decoration: none;
 }
 
-.logo-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
+.kvadrat_logo {
+  display: inline-block;
+  text-align: center;
+  line-height: 42px;
+  width: 42px;
+  height: 42px;
   background-color: #2e6f40;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
-  font-size: 16px;
-}
-
-.logo-text {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.2;
-}
-
-.nav-list {
-  display: flex;
-  gap: 20px;
-}
-
-.nav-link {
-  color: #cccccc;
   font-size: 15px;
-  padding: 6px 4px;
+  margin-right: 9px;
 }
 
-.nav-link:hover,
-.nav-link.active {
+.nazvanie_logo {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+.spisok_menu li {
+  display: inline-block;
+  margin: 0 11px;
+}
+
+.ssylka_menu {
+  color: #ccc;
+  font-size: 15px;
+}
+
+.ssylka_menu:hover,
+.aktivnaya {
   color: #5cb874;
   font-weight: bold;
   text-decoration: none;
 }
 
-.header-phone {
+.telefon_shapka {
   font-size: 15px;
   font-weight: bold;
-  color: #ffffff;
+  color: white;
 }
 
-/* Главный экран */
-.hero {
+.glavnyi_blok {
   background-color: #121212;
-  border-bottom: 1px solid #333333;
-  padding: 70px 0;
+  border-bottom: 1px solid #333;
+  padding: 62px 0 58px 0;
 }
 
-.hero-badge {
+.akcia_plahka {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 5px 11px;
   background-color: #b85d19;
-  color: #ffffff;
+  color: #fff;
   font-size: 14px;
   font-weight: bold;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 
-.hero-title {
-  font-size: 44px;
-  margin-bottom: 16px;
+.glav_zag {
+  font-size: 42px;
+  margin-bottom: 14px;
 }
 
-.hero-desc {
-  max-width: 600px;
-  color: #cccccc;
-  font-size: 18px;
-  margin-bottom: 24px;
+.glav_text {
+  max-width: 580px;
+  color: #c8c8c8;
+  font-size: 17px;
+  line-height: 1.45;
+  margin-bottom: 22px;
 }
 
-/* Кнопки */
-.btn {
+.knopka {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 11px 22px;
   background-color: #2e6f40;
-  color: #ffffff;
+  color: white;
   font-size: 15px;
   font-weight: bold;
   border: none;
   cursor: pointer;
 }
 
-.btn:hover {
+.knopka:hover {
   background-color: #235631;
   text-decoration: none;
 }
 
-/* Карточки */
-.grid-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+.setka_kart {
+  font-size: 0;
 }
 
-.card {
+.kartochka_set {
+  display: inline-block;
+  vertical-align: top;
+  width: 31.5%;
+  margin-right: 2.75%;
+  margin-bottom: 20px;
   background-color: #242424;
-  border: 1px solid #333333;
+  border: 1px solid #343434;
+  font-size: 16px;
 }
 
-.card-img img {
+.kartochka_set:last-child {
+  margin-right: 0;
+}
+
+.kartinka_bluda img {
   width: 100%;
-  height: 220px;
+  height: 215px;
   object-fit: cover;
 }
 
-.card-body {
-  padding: 20px;
+.telo_kart {
+  padding: 18px 17px;
 }
 
-.card-text {
-  color: #bbbbbb;
-  font-size: 15px;
-  margin-bottom: 14px;
+.opisanie_kart {
+  color: #b8b8b8;
+  font-size: 14px;
+  line-height: 1.45;
+  margin-bottom: 13px;
 }
 
-.card-price {
-  font-size: 20px;
+.cena_set {
+  font-size: 19px;
   font-weight: bold;
   color: #e0823d;
 }
 
-/* Форматы банкетов */
-.banquet-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-
-.banquet-card {
+.kartochka_banket {
+  display: inline-block;
+  vertical-align: top;
+  width: 31.5%;
+  margin-right: 2.75%;
+  margin-bottom: 20px;
   background-color: #242424;
-  border: 1px solid #333333;
-  padding: 24px;
+  border: 1px solid #343434;
+  padding: 21px 19px;
+  font-size: 16px;
 }
 
-.banquet-price {
-  font-size: 22px;
+.kartochka_banket:last-child {
+  margin-right: 0;
+}
+
+.cena_banket {
+  font-size: 21px;
   font-weight: bold;
   color: #5cb874;
-  margin-top: 12px;
+  margin-top: 11px;
 }
 
-/* Страница О нас */
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
-  align-items: center;
+.o_nas_blok {
+  font-size: 0;
 }
 
-.about-text p {
-  margin-bottom: 14px;
-  color: #cccccc;
+.o_nas_tekst {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  padding-right: 28px;
+  font-size: 16px;
 }
 
-.about-image img {
-  border: 1px solid #333333;
+.o_nas_tekst p {
+  margin-bottom: 13px;
+  color: #c8c8c8;
+  line-height: 1.45;
 }
 
-figcaption {
-  padding-top: 8px;
-  font-size: 14px;
-  color: #888888;
+.o_nas_foto {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  font-size: 16px;
 }
 
-.chef-stats {
-  display: flex;
-  gap: 30px;
+.o_nas_foto img {
+  border: 1px solid #353535;
+}
+
+.podpis_foto {
+  padding-top: 7px;
+  font-size: 13px;
+  color: #888;
+}
+
+.cifri_shef {
   margin-top: 16px;
 }
 
-.stat-number {
-  font-size: 28px;
+.cifra_item {
+  display: inline-block;
+  margin-right: 28px;
+}
+
+.cifra_chislo {
+  font-size: 26px;
   font-weight: bold;
   color: #5cb874;
 }
 
-.stat-item dt {
+.cifra_tekst {
   font-size: 13px;
-  color: #999999;
+  color: #999;
 }
 
-.suppliers-grid,
-.cert-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-
-.supplier-card,
-.cert-card {
+.kartochka_info {
+  display: inline-block;
+  vertical-align: top;
+  width: 31.5%;
+  margin-right: 2.75%;
+  margin-bottom: 20px;
   background-color: #242424;
-  border: 1px solid #333333;
-  padding: 24px;
+  border: 1px solid #343434;
+  padding: 20px 19px;
+  font-size: 15px;
 }
 
-.supplier-card p,
-.cert-card p {
-  color: #bbbbbb;
+.kartochka_info:last-child {
+  margin-right: 0;
 }
 
-.supplier-location {
+.kartochka_info p {
+  color: #b8b8b8;
+  line-height: 1.45;
+}
+
+.gorod_postav {
   font-size: 13px;
   font-weight: bold;
   color: #e0823d;
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
 
-.cert-icon,
-.card-icon {
-  font-size: 28px;
+.ikonka_kart {
+  font-size: 26px;
   margin-bottom: 8px;
 }
 
-/* Форма бронирования и реквизиты */
-.booking-header {
-  max-width: 580px;
-  margin: 0 auto 20px auto;
+.zagolovok_formy {
+  width: 560px;
+  max-width: 100%;
+  margin: 0 auto 18px auto;
 }
 
-.booking-form {
-  max-width: 580px;
+.forma_broni {
+  width: 560px;
+  max-width: 100%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
-.form-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
+.pole_formy {
+  margin-bottom: 14px;
 }
 
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+.dva_polya {
+  font-size: 0;
+  margin-bottom: 14px;
 }
 
-.form-group label {
+.polovina_polya {
+  display: inline-block;
+  width: 48.5%;
+  margin-right: 3%;
+  font-size: 16px;
+}
+
+.pole_formy label,
+.polovina_polya label {
+  display: block;
   font-size: 14px;
   font-weight: bold;
-  color: #dddddd;
+  color: #ddd;
+  margin-bottom: 5px;
 }
 
-.form-group input,
-.form-group textarea {
-  padding: 10px 12px;
-  font-family: inherit;
+.pole_formy input,
+.pole_formy textarea,
+.polovina_polya input {
+  width: 100%;
+  padding: 9px 11px;
+  font-family: Arial, sans-serif;
   font-size: 15px;
   color: #f0f0f0;
   background-color: #242424;
-  border: 1px solid #444444;
+  border: 1px solid #444;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
+.pole_formy input:focus,
+.pole_formy textarea:focus,
+.polovina_polya input:focus {
   border-color: #5cb874;
   outline: none;
 }
 
-.requisites {
+.rekvizity_blok {
   background-color: #242424;
-  border: 1px solid #333333;
-  padding: 24px;
-  max-width: 580px;
+  border: 1px solid #343434;
+  padding: 22px;
+  width: 560px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
-.requisites dt {
-  font-size: 13px;
-  color: #999999;
-  margin-top: 12px;
+.stroka_rekv {
+  margin-top: 11px;
 }
 
-.requisites dd {
+.nazv_rekv {
+  font-size: 13px;
+  color: #999;
+}
+
+.znach_rekv {
   font-weight: bold;
   color: #f0f0f0;
 }
 
-/* Подвал */
-.site-footer {
+.podval {
   background-color: #121212;
-  color: #cccccc;
-  border-top: 1px solid #333333;
-  padding-top: 40px;
+  color: #ccc;
+  border-top: 1px solid #303030;
+  padding-top: 36px;
 }
 
-.footer-inner {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-  padding-bottom: 30px;
+.podval_setka {
+  font-size: 0;
+  padding-bottom: 26px;
 }
 
-.footer-col h3 {
+.podval_kolonka {
+  display: inline-block;
+  vertical-align: top;
+  width: 19%;
+  margin-right: 1%;
+  font-size: 14px;
+}
+
+.podval_kolonka h3 {
   font-size: 14px;
   text-transform: uppercase;
-  color: #888888;
-  margin-bottom: 12px;
+  color: #888;
+  margin-bottom: 11px;
 }
 
-.footer-col li {
+.podval_kolonka li {
   margin-bottom: 6px;
 }
 
-.footer-col a {
+.podval_kolonka a {
   display: block;
-  color: #cccccc;
+  color: #ccc;
   font-size: 14px;
   margin-bottom: 6px;
 }
 
-.footer-addr {
-  color: #888888;
+.podval_seriy {
+  color: #888;
   font-size: 14px;
   margin-top: 6px;
 }
 
-.footer-bottom {
-  border-top: 1px solid #2a2a2a;
-  padding: 16px 0;
+.podval_niz {
+  border-top: 1px solid #282828;
+  padding: 15px 0;
   text-align: center;
   font-size: 13px;
-  color: #888888;
+  color: #888;
 }
 
-.footer-frame {
+.freim_podval {
   display: block;
   width: 100%;
-  height: 320px;
+  height: 310px;
   border: none;
 }
 
-/* Адаптивность */
-@media (max-width: 900px) {
-  .grid-cards,
-  .banquet-grid,
-  .suppliers-grid,
-  .cert-grid {
-    grid-template-columns: repeat(2, 1fr);
+@media (max-width: 820px) {
+  .kartochka_set, .kartochka_banket, .kartochka_info, .o_nas_tekst, .o_nas_foto, .polovina_polya, .podval_kolonka {
+    width: 100%;
+    margin-right: 0;
   }
-
-  .footer-inner {
-    grid-template-columns: repeat(2, 1fr);
+  .o_nas_tekst {
+    padding-right: 0;
+    margin-bottom: 20px;
   }
-
-  .footer-frame {
-    height: 460px;
-  }
-}
-
-@media (max-width: 768px) {
-  .header-inner {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    padding: 12px 0;
-  }
-
-  .header-phone {
+  .telefon_shapka {
     display: none;
   }
-
-  .main-nav {
-    width: 100%;
-  }
-
-  .nav-list {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-
-  .hero-title {
+  .glav_zag {
     font-size: 32px;
   }
-
-  .grid-cards,
-  .banquet-grid,
-  .about-grid,
-  .suppliers-grid,
-  .cert-grid,
-  .form-row,
-  .footer-inner {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-frame {
-    height: 780px;
+  .freim_podval {
+    height: 750px;
   }
 }
