@@ -42,99 +42,96 @@
 </script>
 <body>
 
-  <header class="header">
-    <div class="container header-wrap">
-      <a href="index.html" class="logo">
-        <span class="logo-box">МиЧ</span>
-        <span class="logo-title">
+  <div class="shapka">
+    <div class="osnova shapka_vnutri">
+      <a href="index.html" class="logotip">
+        <span class="kvadrat_logo">МиЧ</span>
+        <span class="nazv_logo">
           Мастеръ и Чистота
-          <span class="logo-sub">Дом бытовых услуг</span>
+          <span class="podpis_logo">Дом бытовых услуг</span>
         </span>
       </a>
 
-      <nav class="nav-menu">
-        <ul class="menu">
-          <li><a href="index.html" class="menu-link">Главная</a></li>
-          <li><a href="services.html" class="menu-link">Услуги и цены</a></li>
-          <li><a href="about.html" class="menu-link">О предприятии</a></li>
-          <li><a href="events.html" class="menu-link">Акции и вопросы</a></li>
-          <li><a href="contacts.html" class="menu-link active">Контакты</a></li>
+      <div>
+        <ul class="spisok_menu">
+          <li><a href="index.html" class="ssylka_menu">Главная</a></li>
+          <li><a href="services.html" class="ssylka_menu">Услуги и цены</a></li>
+          <li><a href="about.html" class="ssylka_menu">О предприятии</a></li>
+          <li><a href="events.html" class="ssylka_menu">Акции и вопросы</a></li>
+          <li><a href="contacts.html" class="ssylka_menu aktivnaya">Контакты</a></li>
         </ul>
-      </nav>
+      </div>
 
-      <a href="tel:+74958204455" class="phone-top">+7 (495) 820-44-55</a>
+      <a href="tel:+74958204455" class="telefon_verh">+7 (495) 820-44-55</a>
     </div>
-  </header>
+  </div>
 
-  <main>
-    <section class="section">
-      <div class="container">
-        <h1 class="section-title">Контакты и запись</h1>
-        <p class="section-subtitle">Оставьте заявку на сайте или приходите в нашу мастерскую</p>
+  <div class="sekcia">
+    <div class="osnova">
+      <h1 class="zag_razdela">Контакты и запись</h1>
+      <p class="podzag_razdela">Оставьте заявку на сайте или приходите в нашу мастерскую</p>
 
-        <div class="contacts-wrap">
-          <div class="dark-box" id="booking-form">
-            <h2 style="font-size: 22px; margin-bottom: 8px;">Записаться или вызвать курьера</h2>
-            <p style="font-size: 15px; color: #C4BFB9; margin-bottom: 22px;">
-              Заполните форму, и мы перезвоним вам, чтобы уточнить детали и удобное время.
-            </p>
+      <div class="kontakty_setka">
+        <div class="temnyi_blok" id="forma_zakaza">
+          <h2 style="font-size: 21px; margin-bottom: 8px;">Записаться или вызвать курьера</h2>
+          <p style="font-size: 15px; color: #C4BFB9; margin-bottom: 20px;">
+            Заполните форму, и мы перезвоним вам, чтобы уточнить детали и удобное время.
+          </p>
 
-            <form action="#" method="post">
-              <div class="field-row">
-                <label for="contactName" class="field-label">Ваше имя *</label>
-                <input type="text" id="contactName" name="name" class="input-field" placeholder="Введите имя" required>
-              </div>
-
-              <div class="field-row">
-                <label for="contactPhone" class="field-label">Телефон *</label>
-                <input type="tel" id="contactPhone" name="phone" class="input-field" placeholder="+7 (999) 000-00-00" required>
-              </div>
-
-              <div class="field-row">
-                <label for="contactService" class="field-label">Выберите услугу *</label>
-                <select id="contactService" name="service" class="input-field" required>
-                  <option value="">— Не выбрано —</option>
-                  <option value="dryclean">Химчистка одежды или штор</option>
-                  <option value="atelier">Ателье и ремонт одежды</option>
-                  <option value="shoes">Ремонт и чистка обуви</option>
-                  <option value="cleaning">Уборка квартиры или чистка мебели</option>
-                  <option value="salon">Парикмахерская и маникюр</option>
-                </select>
-              </div>
-
-              <div class="field-row">
-                <label for="contactAddress" class="field-label">Адрес или комментарий</label>
-                <textarea id="contactAddress" name="address" class="input-field" placeholder="Укажите адрес для курьера или опишите задачу"></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-green" style="width: 100%; padding: 14px;">Отправить заявку</button>
-            </form>
-          </div>
-
-          <div class="dark-box">
-            <h2 style="font-size: 22px; margin-bottom: 8px;">Наш адрес</h2>
-            <p style="font-size: 15px; color: #C4BFB9; margin-bottom: 20px;">
-              Приёмный пункт, примерочные ателье и мастерские находятся на первом этаже с отдельным входом.
-            </p>
-
-            <div class="info-rows">
-              <p><span>Адрес:</span> г. Москва, ул. Ремесленная, д. 14, стр. 2</p>
-              <p><span>Метро:</span> Китай-город (7 минут пешком)</p>
-              <p><span>Режим работы:</span> Ежедневно с 08:00 до 21:00</p>
-              <p><span>Телефон:</span> <a href="tel:+74958204455" style="color: #6BAF7B; font-weight: bold;">+7 (495) 820-44-55</a></p>
-              <p><span>Почта:</span> <a href="mailto:service@master-chistota.ru" style="color: #6BAF7B;">service@master-chistota.ru</a></p>
-              <p><span>Доставка:</span> Бесплатно по Москве от 3 000 ₽</p>
-              <p><span>Оплата:</span> Наличными, картой или по QR-коду</p>
-              <p style="border-bottom: none;"><span>Юр. лицо:</span> ООО «Мастеръ и Чистота»</p>
+          <form action="#" method="post">
+            <div class="pole_blok">
+              <label for="imya_klienta" class="podpis_polya">Ваше имя *</label>
+              <input type="text" id="imya_klienta" name="imya" class="pole_vvod" placeholder="Введите имя" required>
             </div>
-          </div>
+
+            <div class="pole_blok">
+              <label for="tel_klienta" class="podpis_polya">Телефон *</label>
+              <input type="tel" id="tel_klienta" name="tel" class="pole_vvod" placeholder="+7 (999) 000-00-00" required>
+            </div>
+
+            <div class="pole_blok">
+              <label for="usluga_vybor" class="podpis_polya">Выберите услугу *</label>
+              <select id="usluga_vybor" name="usluga" class="pole_vvod" required>
+                <option value="">— Не выбрано —</option>
+                <option value="himchistka">Химчистка одежды или штор</option>
+                <option value="atelie">Ателье и ремонт одежды</option>
+                <option value="obuv">Ремонт и чистка обуви</option>
+                <option value="uborka">Уборка квартиры или чистка мебели</option>
+                <option value="salon">Парикмахерская и маникюр</option>
+              </select>
+            </div>
+
+            <div class="pole_blok">
+              <label for="adres_komment" class="podpis_polya">Адрес или комментарий</label>
+              <textarea id="adres_komment" name="adres" class="pole_vvod" placeholder="Укажите адрес для курьера или опишите задачу"></textarea>
+            </div>
+
+            <button type="submit" class="knopka knopka_zel" style="width: 100%; padding: 13px;">Отправить заявку</button>
+          </form>
         </div>
 
+        <div class="temnyi_blok">
+          <h2 style="font-size: 21px; margin-bottom: 8px;">Наш адрес</h2>
+          <p style="font-size: 15px; color: #C4BFB9; margin-bottom: 18px;">
+            Приёмный пункт, примерочные ателье и мастерские находятся на первом этаже с отдельным входом.
+          </p>
+
+          <div class="stroki_adres">
+            <p><span>Адрес:</span> г. Москва, ул. Ремесленная, д. 14, стр. 2</p>
+            <p><span>Метро:</span> Китай-город (7 минут пешком)</p>
+            <p><span>Режим работы:</span> Ежедневно с 08:00 до 21:00</p>
+            <p><span>Телефон:</span> <a href="tel:+74958204455" style="color: #6BAF7B; font-weight: bold;">+7 (495) 820-44-55</a></p>
+            <p><span>Почта:</span> <a href="mailto:service@master-chistota.ru" style="color: #6BAF7B;">service@master-chistota.ru</a></p>
+            <p><span>Доставка:</span> Бесплатно по Москве от 3 000 ₽</p>
+            <p><span>Оплата:</span> Наличными, картой или по QR-коду</p>
+            <p style="border-bottom: none;"><span>Юр. лицо:</span> ООО «Мастеръ и Чистота»</p>
+          </div>
+        </div>
       </div>
-    </section>
-  </main>
 
-    <iframe src="footer.html" class="footer-frame" title="Подвал сайта"></iframe> 
+    </div>
+  </div>
 
+  <iframe src="footer.html" class="freim_podval" title="Подвал сайта"></iframe>
 </body>
 </html>
