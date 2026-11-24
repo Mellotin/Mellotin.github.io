@@ -552,3 +552,22 @@ h3 {
     font-size: 32px;
   }
 }
+
+.podval_setka {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.podval_kolonka {
+  flex: 1 1 180px;
+  width: auto;
+  margin-right: 0;
+}
+
+@media (max-width: 600px) {
+  .podval_kolonka {
+    flex: 1 1 100%;
+  }
+}
