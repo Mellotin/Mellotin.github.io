@@ -594,70 +594,79 @@ body {
 }
 
 @media (max-width: 820px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
   .freim_podval {
-    height: 560px;
+    margin-top: auto;
+    height: 480px;
   }
 
   .shapka_vnutri {
     flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   .logotip {
-    align-self: flex-start;
+    align-self: center;
   }
 
   .spisok_menu {
+    display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 0;
+    padding: 0;
+    margin: 0;
   }
 
   .spisok_menu li {
+    display: block;
     flex: 1;
     text-align: center;
+    margin: 0;
   }
 
   .ssylka_menu {
     display: block;
-    padding: 6px 0;
-    font-size: 14px;
-  }
-
-  .telefon_shapka {
-    display: none;
+    font-size: 15px;
+    padding: 5px 0;
+    white-space: nowrap;
   }
 
   .podval_setka {
+    display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
-    padding-left: 4%;
-    padding-right: 4%;
-    gap: 28px;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    scrollbar-width: none;
   }
-
-  .podval_kolonka {
-    flex: 0 0 auto;
-    width: 200px;
-    scroll-snap-align: start;
-  }
-
-  .podval_kolonka:first-child {
-    width: 200px;
-  }
-
+  
   .podval_setka::-webkit-scrollbar {
     display: none;
   }
 
-  .podval_setka {
-    scrollbar-width: none;
+  .podval_kolonka {
+    flex: 0 0 auto !important;
+    width: 220px !important;
+    margin-right: 0 !important;
+    scroll-snap-align: start;
+    font-size: 14px;
+    display: block;
   }
 
-  .podval_niz {
-    text-align: center;
+  .podval_kolonka:first-child {
+    width: 220px !important;
   }
-}
 }
