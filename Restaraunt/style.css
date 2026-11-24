@@ -533,9 +533,9 @@ h3 {
   }
 
   .podval_kolonka {
-    display: block;
-    width: 100%;
-    margin-right: 0;
+    display: block !important;
+    width: 100% !important;
+    margin-right: 0 !important;
     margin-bottom: 20px;
   }
 
