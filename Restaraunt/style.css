@@ -536,7 +536,7 @@ h3 {
     display: block !important;
     width: 100% !important;
     margin-right: 0 !important;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
   }
 
   .o_nas_tekst {
@@ -550,9 +550,5 @@ h3 {
 
   .glav_zag {
     font-size: 32px;
-  }
-
-  .freim_podval {
-    height: 780px !important;
   }
 }
