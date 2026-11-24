@@ -553,6 +553,6 @@ h3 {
   }
 
   .freim_podval {
-    height: 760px;
+    height: 780px !important;
   }
 }
