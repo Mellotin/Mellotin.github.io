@@ -753,3 +753,43 @@ textarea.pole_vvod {
     height: 760px;
   }
 }
+
+
+.podval_kolonki {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.podval_col {
+  flex: 1 1 200px;
+  width: auto !important;
+  margin-right: 0 !important;
+}
+
+@media (max-width: 850px) {
+  .shapka_vnutri {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .spisok_menu {
+    text-align: center;
+  }
+
+  .spisok_menu li {
+    margin: 4px 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .podval_col {
+    flex: 1 1 100%;
+  }
+
+  .freim_podval {
+    height: 780px;
+  }
+}
