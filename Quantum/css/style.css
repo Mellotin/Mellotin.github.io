@@ -634,3 +634,42 @@ h3 {
     height: 680px;
   }
 }
+
+.podval_kolonki {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.podval_col {
+  flex: 1 1 170px;
+  width: auto !important;
+  margin-right: 0 !important;
+}
+
+@media (max-width: 800px) {
+  .shapka_vnutri {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .menu_spisok {
+    text-align: center;
+  }
+
+  .menu_spisok li {
+    margin: 4px 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .podval_col {
+    flex: 1 1 100%;
+  }
+
+  .freim_podval {
+    height: 760px;
+  }
+}
