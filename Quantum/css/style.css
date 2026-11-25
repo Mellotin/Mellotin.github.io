@@ -673,3 +673,17 @@ h3 {
     height: 760px;
   }
 }
+
+@media (max-width: 800px) {
+  .verh_polosa ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 6px 12px;
+  }
+
+  .kurs_item {
+    margin-right: 0;
+    width: 47%;
+  }
+}
